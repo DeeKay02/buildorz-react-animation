@@ -13,6 +13,10 @@ function AnimationHero() {
             alignItems: "center",
             flexDirection: "column",
         }}>
+            <div className="ball-1"/>
+            <div className="ball-2"/>
+            <div className="ball-3"/>
+            <div className="ball-4"/>
             <div className="FeatureCards" style={{ 
                 display: "flex",
                 flexDirection: "row",
@@ -26,36 +30,31 @@ function AnimationHero() {
             <div style={{ 
                 display: "flex",
                 flexDirection: "row",
-            }}>
-                <div className="ball-1"/>
-                <div className="ball-2"/>
-                <div className="ball-3"/>
-                <div className="ball-4"/>
-                
+            }}>               
                 <div style={{
                     height: "50px",
                     border: "2px solid white",
-                    marginRight: "150px",
+                    marginRight: "152px",
                 }} />
                 <div style={{
                     height: "50px",
                     border: "2px solid white",
-                    marginInline: "150px",
+                    marginInline: "152px",
                 }} />
                 <div style={{
                     height: "50px",
                     border: "2px solid white",
-                    marginInline: "150px",
+                    marginInline: "152px",
                 }} />
                 <div style={{
                     height: "50px",
                     border: "2px solid white",
-                    marginLeft: "150px",
+                    marginLeft: "152px",
                 }} />
             </div>
             
             <div style={{
-                width: "910px",
+                width: "912px",
                 border: "2px solid white",
             }} />
 
@@ -66,10 +65,6 @@ function AnimationHero() {
 
             <img src="https://app.r3vl.xyz/_next/static/media/logo_square_background.d620b4cf.png" alt="logo" style={{height: "120px", width: "120px", borderRadius: "20px", marginBlock: "10px",}}></img>
             
-            <div className="ball-5"/>
-            <div className="ball-6"/>
-            <div className="ball-7"/>
-
             <div style={{
                 height: "80px",
                 border: "2px solid white",
@@ -109,6 +104,10 @@ function AnimationHero() {
                 <UserCard addens="0xdg...2dca" />
                 <UserCard addens="Benny.eth" />
             </div>
+            
+            <div className="ball-5"/>
+            <div className="ball-6"/>
+            <div className="ball-7"/>
         </div>
     );
 }

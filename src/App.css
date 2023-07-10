@@ -1,43 +1,14 @@
-.App {
-  text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
+/* src/App.css */
 .ball-1 {
   background-color: #ea80e6;
   border-radius: 50%;
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 39%;
-  left: 19.5%;
+  top: 284px;
+  left: 295px;
   animation: ball-1 4s infinite;
+  position: relative;
 }
 
 .ball-2 {
@@ -46,9 +17,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 39%;
-  left: 39.4%;
+  top: -2px;
+  left: 315px;
   animation: ball-2 2s infinite;
+  position: relative;
 }
 
 .ball-3 {
@@ -57,9 +29,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 39%;
+  top: 284px;
   right: 39.4%;
   animation: ball-3 3s infinite;
+  position: relative;
 }
 
 .ball-4 {
@@ -68,9 +41,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 39%;
-  right: 19.4%;
+  top: 284px;
+  right: 294px;
   animation: ball-4 5s infinite;
+  position: relative;
 }
 
 .ball-5 {
@@ -79,9 +53,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 78%;
-  right: 49.3%;
+  top: -435px;
+  left: 1px;
   animation: ball-5 3s infinite;
+  position: relative;
 }
 
 .ball-6 {
@@ -90,9 +65,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 78%;
-  right: 49.3%;
+  top: -455px;
+  left: 1px;
   animation: ball-6 4s infinite;
+  position: relative;
 }
 
 .ball-7 {
@@ -101,9 +77,10 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 78%;
-  right: 49.3%;
+  top: -475px;
+  left: 1px;
   animation: ball-7 4s infinite;
+  position: relative;
 }
 
 @keyframes ball-1 {
