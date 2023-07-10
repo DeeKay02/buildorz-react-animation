@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,9 +19,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +26,109 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.ball-1 {
+  background-color: #ea80e6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 39%;
+  left: 19.5%;
+  animation: ball-1 4s infinite;
+}
+
+.ball-2 {
+  background-color: #d7ef41;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 39%;
+  left: 39.4%;
+  animation: ball-2 2s infinite;
+}
+
+.ball-3 {
+  background-color: #ea80e6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 39%;
+  right: 39.4%;
+  animation: ball-3 3s infinite;
+}
+
+.ball-4 {
+  background-color: #fc7739;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 39%;
+  right: 19.5%;
+  animation: ball-4 5s infinite;
+}
+
+@keyframes ball-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, 50px);
+  }
+  85% {
+    transform: translate(454px, 50px);
+  }
+  100% {
+    transform: translate(454px, 130px);
+  }
+}
+
+@keyframes ball-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, 50px);
+  }
+  85% {
+    transform: translate(153px, 50px);
+  }
+  100% {
+    transform: translate(153px, 130px);
+  }
+}
+
+@keyframes ball-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, 50px);
+  }
+  85% {
+    transform: translate(-153px, 50px);
+  }
+  100% {
+    transform: translate(-153px, 130px);
+  }
+}
+
+@keyframes ball-4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, 50px);
+  }
+  85% {
+    transform: translate(-454px, 50px);
+  }
+  100% {
+    transform: translate(-454px, 130px);
   }
 }

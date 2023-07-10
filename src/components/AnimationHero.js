@@ -26,6 +26,10 @@ function AnimationHero() {
                 display: "flex",
                 flexDirection: "row",
             }}>
+                <div className="ball-1"/>
+                <div className="ball-2"/>
+                <div className="ball-3"/>
+                <div className="ball-4"/>
                 <div style={{
                     height: "50px",
                     border: "2px solid white",
