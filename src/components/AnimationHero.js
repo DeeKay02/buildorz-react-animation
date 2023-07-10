@@ -28,7 +28,9 @@ function AnimationHero() {
                 display: "flex",
                 flexDirection: "row",
             }}>
-                <UserCard />
+                <UserCard addens="Alyssa.eth" />
+                <UserCard addens="0xdg...2dca" />
+                <UserCard addens="Benny.eth" />
             </div>
         </div>
     );
