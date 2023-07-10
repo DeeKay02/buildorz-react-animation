@@ -1,14 +1,15 @@
 export default function FeatureCard({addens,}) {
     return (
-        <div className="user-card" style={{margin: "30px"}}>
+        <div className="user-card" style={{marginInline: "30px", marginTop: "10px"}}>
             <div className="bg">
                 <div className="back-shade" style={{ 
                 backgroundColor: "#6a438b", 
-                height: "300px", 
+                height: "290px", 
                 width: "250px",
                 borderRadius: "20px",
                 position: "absolute",
-            }} />
+            }
+            } />
             <div className="front" style={{ 
                 background: "linear-gradient(0deg, rgba(231,62,127,1) 0%, rgba(176,124,234,1) 100%)",
                 height: "250px", 
