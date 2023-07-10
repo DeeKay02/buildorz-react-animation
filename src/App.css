@@ -5,8 +5,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 284px;
-  left: 295px;
+  top: 330px;
+  left: -460px;
   animation: ball-1 4s infinite;
   position: relative;
 }
@@ -17,8 +17,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: -2px;
-  left: 315px;
+  top: 309px;
+  right: 153px;
   animation: ball-2 2s infinite;
   position: relative;
 }
@@ -29,8 +29,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 284px;
-  right: 39.4%;
+  top: 289px;
+  left: 155px;
   animation: ball-3 3s infinite;
   position: relative;
 }
@@ -41,8 +41,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 284px;
-  right: 294px;
+  top: 269px;
+  left: 461px;
   animation: ball-4 5s infinite;
   position: relative;
 }
@@ -91,10 +91,10 @@
     transform: translate(0, 50px);
   }
   85% {
-    transform: translate(454px, 50px);
+    transform: translate(460px, 50px);
   }
   100% {
-    transform: translate(454px, 130px);
+    transform: translate(460px, 130px);
   }
 }
 
@@ -106,10 +106,10 @@
     transform: translate(0, 50px);
   }
   85% {
-    transform: translate(153px, 50px);
+    transform: translate(155px, 50px);
   }
   100% {
-    transform: translate(153px, 130px);
+    transform: translate(155px, 130px);
   }
 }
 
@@ -121,10 +121,10 @@
     transform: translate(0, 50px);
   }
   85% {
-    transform: translate(-153px, 50px);
+    transform: translate(-155px, 50px);
   }
   100% {
-    transform: translate(-153px, 130px);
+    transform: translate(-155px, 130px);
   }
 }
 
@@ -136,10 +136,10 @@
     transform: translate(0, 50px);
   }
   85% {
-    transform: translate(-454px, 50px);
+    transform: translate(-460px, 50px);
   }
   100% {
-    transform: translate(-454px, 130px);
+    transform: translate(-460px, 130px);
   }
 }
 

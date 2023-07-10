@@ -2,7 +2,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function FeatureCard(props) {
     return (
-        <div className="feature-card" style={{margin: "30px"}}>
+        <div className="feature-card" style={{marginInline: "30px", marginBottom: "25px"}}>
             <div className="back-shade" style={{ 
                 backgroundColor: props.colorB, 
                 height: "210px", 

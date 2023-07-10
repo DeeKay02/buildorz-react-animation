@@ -54,7 +54,7 @@ function AnimationHero() {
             </div>
             
             <div style={{
-                width: "912px",
+                width: "921.6px",
                 border: "2px solid white",
             }} />
 
